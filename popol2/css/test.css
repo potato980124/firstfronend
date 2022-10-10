@@ -1,0 +1,10 @@
+@import url(common/reset.css);
+.bottom-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.bottom-header ul{
+    
+}

@@ -1,0 +1,595 @@
+@import url(common/reset.css);
+
+/* header시작 */
+.header{
+    width: 100%;
+    /* border: 1px solid; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+.header .inner-header{
+    width: 100%;
+    background-color: white;
+}
+
+
+/* top-header */
+.header .inner-header .top-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.header .inner-header .top-header .gnb{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center; 
+}
+.header .inner-header .top-header .gnb .logo{
+}
+
+/* bottom-header */
+.header .inner-header .bottom-header{
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+.header .inner-header .bottom-header ul{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header .inner-header .bottom-header ul.rightmenu{
+    padding-left: 20px;
+    box-sizing: border-box;     
+}
+
+
+.header .inner-header .bottom-header ul li a span{
+    font-size: 15px;
+    font-family:sans-serif;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+.header .inner-header .bottom-header ul li a span:hover{
+    color: aqua;
+}
+
+
+/* container */
+.container{
+    width: 100%;
+}
+.container .inner-container{
+    width: 100%;
+}
+.container .inner-container .index{
+    width: 100%;
+}
+.container .inner-container .index .sections{
+    width: 100%;
+}
+
+/* section1 */
+.container .inner-container .index .sections .section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .inner-container .index .sections .section1 .sec-con{
+    width: 100%;
+    /* max-width: 1920px; */
+    height: 100vh;
+    max-height: 500px;
+    /* max-height: 600px; */
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    animation-name: bg;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg{
+    0% {background: url(../img/markect1.jpg) no-repeat 50%/cover;}
+    40% {background: url(../img/market2.jpg) no-repeat 50%/cover;}
+    80% {background: url(../img/market3.jpg) no-repeat 50%/cover;}
+    100% {background: url(../img/markect1.jpg) no-repeat 50%/cover;}
+}
+
+/* section2 */
+.container .inner-container .index .sections .section2{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/bg_main_section01.png);
+    padding: 140px 0;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section2 .sec-con{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.container .inner-container .index .sections .section2 .sec-con .title{
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.title>h4{
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+
+
+.container .inner-container .index .sections .section2 .sec-con div{
+    width: 100%;
+    margin: 0 auto;
+}
+.container .inner-container .index .sections .section2 .sec-con div ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.container .inner-container .index .sections .section2 .sec-con div ul li{
+    width: calc(25% - 30px);
+    height: 100vh;
+    max-height: 300px;
+    background-color: rebeccapurple;
+}
+.img_text{
+    position: relative;
+    top: 100px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+.img_text img{
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.img_text>p{
+   font-size: 19px;
+   text-align: center;
+   color: #fff;
+   font-weight: 300px; 
+}
+.container .inner-container .index .sections .section2 .sec-con .bottom_menu{
+    margin-top: 30px;
+}
+
+
+.container .inner-container .index .sections .section2 .sec-con div ul li a{
+    /* flex: 1; */
+    /* border: 1px solid; */ 
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.container .inner-container .index .sections .section2 .sec-con div ul li a:hover{
+    background-color: blueviolet;
+    opacity: 0.7;   
+}
+
+
+/* .container .inner-container .index .sections .section2 .sec-con .top-menu ul li:nth-child(1){
+    background: url(../img/food2.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .index .sections .section2 .sec-con .top-menu ul li:nth-child(2){
+    background: url(../img/road.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .index .sections .section2 .sec-con .top-menu ul li:nth-child(3){
+    background: url(../img/food1.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .index .sections .section2 .sec-con .top-menu ul li:nth-child(4){
+    background: url(../img/tour.jpg) no-repeat 50%/cover;
+} */
+
+
+
+    
+
+
+
+
+
+
+
+/* section3 */ 
+.container .inner-container .index .sections .section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .inner-container .index .sections .section3 .sec-con{
+    width: 100%;
+    max-width: 1920px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/blueback.jpg);
+    padding-bottom: 80px;
+}
+
+
+.container .inner-container .index .sections .section3 .sec-con .title{
+    text-align: center;
+    font-size: 20px;
+    /* border: 1px solid; */
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+
+
+.container .inner-container .index .sections .section3 .sec-con .menu{
+    width: 100%;
+    max-width: 690px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    gap: 30px;
+}
+.container .inner-container .index .sections .section3 .sec-con .menu span.arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;    
+}
+.container .inner-container .index .sections .section3 .sec-con .menu .menu-con{
+    /* background: url(../img/surgery.jpg) no-repeat 50%/cover;
+    width: 600px;
+    height: 450px; */
+    /* border: 1px solid; */
+    /* box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px 30px;
+    cursor: pointer; */
+    /* border: 1px solid; */
+    /* width: 600px;
+    height: 450px; */
+    width: 100%;
+    max-width: 570px;
+    background: url(../img/hospital1.jpg);
+    background-size: cover;
+}
+.container .inner-container .index .sections .section3 .sec-con .menu .menu-con a{
+    width: 100%;
+    max-width: 600px;
+    height: 427px;  
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: all 1s;
+    color: white;
+}
+
+.container .inner-container .index .sections .section3 .sec-con .menu .menu-con a:hover{
+    background-color: blueviolet;
+    /* opacity: 0.7; */
+    /* transform: translate(0,-50px); */
+    align-items: center;
+    justify-content: center;
+}
+.container .inner-container .index .sections .section3 .sec-con .menu .menu-con a p{
+    opacity: 0.7;
+}
+
+
+
+.container .inner-container .index .sections .section3 .sec-con .bottom-text{
+    padding: 50px 0;
+    text-decoration: underline;
+    color: white;
+}
+
+/* section4 */
+.section4{
+    width: 100%;
+}
+.section4 .sec-con{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0;
+    box-sizing: border-box; 
+}
+
+
+
+.section4 .sec-con .top-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.section4 .sec-con .top-con span.arrow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.section4 .sec-con .top-con .text{
+    text-align: center;
+}
+.section4 .sec-con .top-con .text h1{
+    padding-bottom: 10px;
+}
+
+
+.section4 .sec-con .bottom-con{
+   width: 100%;
+}
+.section4 .sec-con .bottom-con ul{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.section4 .sec-con .bottom-con li{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.section4 .sec-con .bottom-con li img{
+    /* display: block; */
+    width: 100%;
+}
+.section4 .sec-con .bottom-con li img:hover{
+    transform: scale(1.1);
+}
+.section4 .sec-con .bottom-con li p{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.section4 .sec-con .bottom-con li h2{   
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+
+
+/* section5 */
+.container .inner-container .index .sections .section5{
+    width: 100%;
+    background-color: gray;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section5 .sec-con{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.container .inner-container .index .sections .section5 .sec-con ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li p.ot{
+    color: white;
+    text-decoration: underline;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li p{
+    color: white;
+    font-size: 13px;
+    opacity: 0.5;
+    padding-top: 10px;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li h3{
+    color: white;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li img{
+    display: block;
+    padding: 20px 0;
+    transition: 0.5s;
+}
+.container .inner-container .index .sections .section5 .sec-con ul li img:hover{
+    transform: translate(0,10px);
+}
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.footer .top-con{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    color: white;
+    box-sizing: border-box;
+}
+.footer .top-con ul{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+.footer .top-con ul li{
+    padding: 30px 0;
+}
+.footer .top-con ul li p{
+    color: white;
+    opacity: 0.7;
+}
+.footer .top-con div{
+    display: flex;
+    align-items: center;
+}
+.footer .top-con div p{
+    color: white;
+    opacity: 0.7;
+}
+
+
+
+.footer .bottom-con{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.footer .bottom-con .text p{
+    color: white;
+    opacity: 0.7;
+}
+@media (max-width:1170px){
+    .container .inner-container .index .sections .section2 .sec-con div ul li{
+       width: calc(50% - 15px); 
+       margin-top: 30px;
+    }
+    .container .inner-container .index .sections .section2 .sec-con div ul li:nth-child(1){
+       margin-top: 0;
+    }
+    .container .inner-container .index .sections .section2 .sec-con div ul li:nth-child(2){
+       margin-top: 0;
+    }
+    .section4 .sec-con .bottom-con li:last-child{
+        display: none;
+    }
+    .section4 .sec-con .bottom-con li{
+        width: calc(50% - 10px);
+    }
+}
+@media (max-width:660px){
+    .header .inner-header .bottom-header{
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .header .inner-header .bottom-header ul{
+        gap: 10px;
+    }
+    .header .inner-header .bottom-header ul.rightmenu{
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+    .header .inner-header .bottom-header ul li a span{
+        font-size: 10px;
+    }
+    .container .inner-container .index .sections .section2 .sec-con .title{
+        font-size: 12px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+    }
+    .section4 .sec-con .bottom-con li:nth-child(2){
+        display: none;
+    }
+    .section4 .sec-con .bottom-con li{
+        width: 100%;
+    }
+    .container .inner-container .index .sections .section5 .sec-con ul li{
+        width: 50%;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .container .inner-container .index .sections .section5 .sec-con ul li:last-child{
+        padding-bottom: 0;
+    }
+    .footer .top-con{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:414px){/*  ->미디어쿼리 CSS를 따로 만들어 사용하니깐 패딩 left값이 안 먹었다, 
+    같은 css창에서 순차적으로 제일 밑에 있는게 적용 되어야 하는 원리가 
+    따로 css를 만들면 안 되는 것 같다, 그래서 결국 합쳐줬다. */
+    .header{
+        position: static;
+    }
+    .header .inner-header .top-header{
+        padding: 5px 0;
+        box-sizing: border-box;
+    }
+    .header .inner-header .bottom-header{
+        flex-direction: column;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .header .inner-header .bottom-header ul.leftmenu{
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .header .inner-header .bottom-header ul.leftmenu li{
+        flex-direction: column;
+        border-bottom: 2px solid;   
+        box-sizing: border-box;
+    }
+    .header .inner-header .bottom-header ul.leftmenu li span{
+        font-size: 16px;
+        color: black;
+        display: block;
+        margin-bottom: 3px;
+    }
+    .header .inner-header .bottom-header ul.rightmenu{
+        padding-left: 40px;
+        padding-top: 10px; /* -> 탑헤더에서 갭을 20px 줬으니깐 여기도 20px~~~ */
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+    .container .inner-container .index .sections .section2{
+        /* padding: 30px 0; */
+    }
+    .container .inner-container .index .sections .section2 .sec-con .title{
+        font-size: 12px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .footer .bottom-con{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

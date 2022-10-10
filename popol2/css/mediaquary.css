@@ -1,0 +1,12 @@
+@media (max-width:390px){
+    .header .inner-header .bottom-header{
+        flex-direction: column;
+    }
+    .header .inner-header .bottom-header ul.leftmenu{
+        flex-direction: column;
+    }
+    .header .inner-header .bottom-header ul.rightmenu{
+        padding-left: 0px;
+        justify-content: flex-start;
+    }
+}
